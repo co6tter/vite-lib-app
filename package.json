@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/co6tter/vite-lib-app.git"
   },
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/my-lib.umd.cjs",
@@ -14,9 +14,6 @@
       "import": "./dist/my-lib.js",
       "require": "./dist/my-lib.umd.cjs"
     }
-  },
-  "publishConfig": {
-    "access": "restricted"
   },
   "scripts": {
     "dev": "vite",
