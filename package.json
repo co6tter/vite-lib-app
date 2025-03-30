@@ -1,11 +1,12 @@
 {
   "name": "@co6tter/vite-lib-app",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/co6tter/vite-lib-app.git"
+  },
   "version": "0.0.0",
   "type": "module",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "main": "./dist/my-lib.umd.cjs",
   "module": "./dist/my-lib.js",
   "exports": {
