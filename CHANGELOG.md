@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/co6tter/vite-lib-app/compare/v1.1.0...v1.1.1) (2025-04-01)
+
+
+### Bug Fixes
+
+* add YellowColors ([d39233d](https://github.com/co6tter/vite-lib-app/commit/d39233d8008883d19d573ed8ef2d9d94488d155f))
+
 # [1.1.0](https://github.com/co6tter/vite-lib-app/compare/v1.0.0...v1.1.0) (2025-03-30)
 
 
