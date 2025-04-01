@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/co6tter/vite-lib-app/compare/v1.1.1...v1.1.2) (2025-04-01)
+
+
+### Bug Fixes
+
+* add build step ([828f7f7](https://github.com/co6tter/vite-lib-app/commit/828f7f7cc192b9257ed26948672f9769a32158b0))
+
 ## [1.1.1](https://github.com/co6tter/vite-lib-app/compare/v1.1.0...v1.1.1) (2025-04-01)
 
 

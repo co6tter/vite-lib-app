@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/co6tter/vite-lib-app.git"
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "files": [
     "dist"
