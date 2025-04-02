@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/co6tter/vite-lib-app/compare/v1.1.3...v1.1.4) (2025-04-02)
+
+
+### Bug Fixes
+
+* add vite-plugin-dts ([46ea13d](https://github.com/co6tter/vite-lib-app/commit/46ea13d3c8154332c7b4a9f9fb648e21c8581ae1))
+
 ## [1.1.3](https://github.com/co6tter/vite-lib-app/compare/v1.1.2...v1.1.3) (2025-04-02)
 
 
