@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/co6tter/vite-lib-app/compare/v1.1.4...v1.1.5) (2025-04-02)
+
+
+### Bug Fixes
+
+* add yalc ([9fcbba9](https://github.com/co6tter/vite-lib-app/commit/9fcbba941a6cdc4364ab700643c82900e1b0d184))
+
 ## [1.1.4](https://github.com/co6tter/vite-lib-app/compare/v1.1.3...v1.1.4) (2025-04-02)
 
 
