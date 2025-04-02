@@ -1,18 +1,19 @@
-import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import tailwindcss from "@tailwindcss/vite";
+import vue from "@vitejs/plugin-vue";
+import { defineConfig } from "vite";
+import dts from "vite-plugin-dts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue(), tailwindcss()],
+  plugins: [vue(), tailwindcss(), dts({ tsconfigPath: "./tsconfig.app.json", rollupTypes: true })],
 
   build: {
     lib: {
-      entry: resolve(__dirname, "lib/main.js"),
+      entry: resolve(__dirname, "lib/main.ts"),
       name: "MyLib",
       // 適切な拡張子が追加されます
       fileName: "my-lib",
