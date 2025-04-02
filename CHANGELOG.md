@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/co6tter/vite-lib-app/compare/v1.1.2...v1.1.3) (2025-04-02)
+
+
+### Bug Fixes
+
+* switch from pnpm to npm ([f200b96](https://github.com/co6tter/vite-lib-app/commit/f200b96b086d2635357b87e23589b133ffb86c0d))
+
 ## [1.1.2](https://github.com/co6tter/vite-lib-app/compare/v1.1.1...v1.1.2) (2025-04-01)
 
 
