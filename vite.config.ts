@@ -1,3 +1,4 @@
+import { execSync } from "node:child_process";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import tailwindcss from "@tailwindcss/vite";
@@ -9,7 +10,22 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue(), tailwindcss(), dts({ tsconfigPath: "./tsconfig.app.json", rollupTypes: true })],
+  plugins: [
+    vue(),
+    tailwindcss(),
+    dts({ tsconfigPath: "./tsconfig.app.json", rollupTypes: true }),
+    {
+      name: "yalc-push-after-build",
+      closeBundle() {
+        console.log("Build completed. Running yalc push...");
+        try {
+          execSync("yalc push", { stdio: "inherit" });
+        } catch (error) {
+          console.error("Failed to run yalc push:", error);
+        }
+      },
+    },
+  ],
 
   build: {
     lib: {
