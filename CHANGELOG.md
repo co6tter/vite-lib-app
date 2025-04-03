@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/co6tter/vite-lib-app/compare/v1.1.5...v1.1.6) (2025-04-03)
+
+
+### Bug Fixes
+
+* add css import to lib/main.ts ([cd02336](https://github.com/co6tter/vite-lib-app/commit/cd023367445b4e9315b76a8596ed174a2115733b))
+
 ## [1.1.5](https://github.com/co6tter/vite-lib-app/compare/v1.1.4...v1.1.5) (2025-04-02)
 
 
