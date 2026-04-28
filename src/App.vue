@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import RedColors from "./components/RedColors.vue";
 import OrangeColors from "./components/OrangeColors.vue";
+import RedColors from "./components/RedColors.vue";
 </script>
 
 <template>
