@@ -5,6 +5,8 @@
     "url": "https://github.com/co6tter/vite-lib-app.git"
   },
   "version": "1.1.6",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
   "type": "module",
   "files": [
     "dist"
