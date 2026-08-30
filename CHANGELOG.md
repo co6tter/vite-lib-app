@@ -1,3 +1,25 @@
+# 1.0.0 (2026-08-30)
+
+
+### Bug Fixes
+
+* add build step ([7e4a2c0](https://github.com/co6tter/vite-lib-app/commit/7e4a2c0173e7b3a015c697d2f23ff0949aa93691))
+* add css import to lib/main.ts ([eb18154](https://github.com/co6tter/vite-lib-app/commit/eb18154d7a2b9178ceb1e04886e0be863ed07ed6))
+* add semantic-release plugins config ([c0dd504](https://github.com/co6tter/vite-lib-app/commit/c0dd50479bb32d490a77683061d7cebec17207f7))
+* add setup node and pnpm ([8538b7c](https://github.com/co6tter/vite-lib-app/commit/8538b7cd8ef377a9d3fc6eb5a82c30c6a5780ccb))
+* add token ([b3b5da7](https://github.com/co6tter/vite-lib-app/commit/b3b5da7f501ed36b75968c67d419cd3e5cd53f92))
+* add vite-plugin-dts ([3e5bdbf](https://github.com/co6tter/vite-lib-app/commit/3e5bdbf3a8fc322e518b7147397b50d8c98cc264))
+* add yalc ([7478166](https://github.com/co6tter/vite-lib-app/commit/74781666c17bba1baf192c1316445796ca0ca7da))
+* add YellowColors ([b30631c](https://github.com/co6tter/vite-lib-app/commit/b30631c63a4401682b015acbb6dcc6bc6c04f33b))
+* replace npm with pnpm in release.yml ([d3e8730](https://github.com/co6tter/vite-lib-app/commit/d3e87308f9ca87925358aa2a5bfb33bf4c13d66e))
+* switch from pnpm to npm ([e4de4da](https://github.com/co6tter/vite-lib-app/commit/e4de4dac6d60ab24ae8da95f4e9c86c07ea66372))
+
+
+### Features
+
+* add release.yml ([790bede](https://github.com/co6tter/vite-lib-app/commit/790beded0c165ef9a706d27c23c6bfef0f9e1abb))
+* initialize project ([748312a](https://github.com/co6tter/vite-lib-app/commit/748312a1855f969c3d0713724a9f5d1020b2651b))
+
 ## [1.1.6](https://github.com/co6tter/vite-lib-app/compare/v1.1.5...v1.1.6) (2025-04-03)
 
 
